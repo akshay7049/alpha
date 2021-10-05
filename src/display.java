@@ -46,7 +46,9 @@ public class display extends HttpServlet {
 			//Statement stmt=con.createStatement(sql);
 			PreparedStatement ps=con.prepareStatement(sql);
 			//ps.setInt(1, id);
+			//Test branch changes
 			
+			//New changess
 			ResultSet rs=ps.executeQuery();
 			while(rs.next())
 			{
