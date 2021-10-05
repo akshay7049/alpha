@@ -51,6 +51,7 @@ public class insert extends HttpServlet {
 			ps.setInt(1, id);
 			ps.setString(2, name);
 			ps.setInt(3, salary);
+			//Hello
 			int i=ps.executeUpdate();
 			if(i>0)
 			{
