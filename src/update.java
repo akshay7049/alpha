@@ -50,6 +50,7 @@ public class update extends HttpServlet {
 			ps.setInt(3, salary);
 			ps.setInt(4, id);
 			int i=ps.executeUpdate();
+			//ABC
 			if(i>0)
 			{
 				request.getRequestDispatcher("N.html").include(request, response);
